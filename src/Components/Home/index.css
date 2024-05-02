@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.MenuBox {
+  background-color: rgba(15, 82, 186, 1);
+  display:  flex;
+  justify-content: space-between;  
+  align-items: center;
+  height: 101px;
+  padding: 0px 25px;
+}
+
+.MenuLogo {
+  color:rgba(255, 255, 255, 1);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.MenuLogo span {
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.MenuCartBox {
+  background-color: rgba(255, 255, 255, 1);
+  width: 90px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.MenuCart {
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 12px
+}
+
+.MenuCart img {
+    padding-right: 10px;
+}
+
+.MenuCart p {
+   color: rgba(0, 0, 0, 1);
+   
+
+}
+
+.ProductBox {
+  background-color:   rgb(249, 249, 249);
+  padding-top: 4%;
+  padding-bottom: 4%;
+  display: grid;
+  grid-template-columns: repeat(3, 230px);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: center;
+}
+
+
+.modal {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color:rgba(15, 82, 186, 1);
+  width: 30%;
+  height: 120%;
+}
+
+.modal-content {
+  
+}
+
+.modal-content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+
+
+}
+
+.ModalHeader {
+  display: flex;
+  justify-content: space-between; 
+  padding: 30px 10px;
+}
+
+.close {
+  background-color: rgba(0, 0, 0, 1);
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+
+}
+

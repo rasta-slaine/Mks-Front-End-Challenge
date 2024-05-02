@@ -1,0 +1,79 @@
+
+
+.modal {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:rgba(15, 82, 186, 1);
+    width: 30%;
+    height: 124%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .modal-content {
+    
+  }
+  
+  .modal-content h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+  
+  
+  }
+  
+  .ModalHeader {
+    display: flex;
+    justify-content: space-between; 
+    padding: 30px 10px;
+  }
+  
+  .modalEnd {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .close {
+    background-color: rgba(0, 0, 0, 1);
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+  
+  }
+
+  .CartTotal {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .CartEnd {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+
+  }
+
